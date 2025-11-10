@@ -1,0 +1,30 @@
+{
+    "filters": {
+        "min_price": 200000,
+        "max_price": 800000,
+        "min_bedrooms": 3,
+        "sort_by": "price.value",
+        "order": "asc",
+        "limit": 100
+    },
+    "transform": {
+        "include_fields": [
+            "zpid",
+            "price",
+            "address",
+            "bedrooms",
+            "bathrooms",
+            "livingArea",
+            "yearBuilt",
+            "propertyType",
+            "taxAssessment",
+            "walkScore",
+            "schools",
+            "url"
+        ],
+        "field_mapping": {
+            "livingArea": "livingAreaSqFt"
+        },
+        "strip_empty": true
+    }
+}
