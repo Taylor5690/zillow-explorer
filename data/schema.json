@@ -1,0 +1,97 @@
+{
+    "title": "ZillowExplorerListing",
+    "description": "Minimal schema used for validating normalized Zillow Explorer output records.",
+    "type": "object",
+    "required": [
+        "zpid",
+        "price",
+        "address"
+    ],
+    "properties": {
+        "zpid": {
+            "type": "integer"
+        },
+        "price": {
+            "type": "object",
+            "required": [
+                "value"
+            ],
+            "properties": {
+                "value": {
+                    "type": "integer"
+                }
+            }
+        },
+        "address": {
+            "type": "object",
+            "required": [
+                "streetAddress",
+                "city",
+                "state",
+                "zipcode"
+            ],
+            "properties": {
+                "streetAddress": {
+                    "type": "string"
+                },
+                "city": {
+                    "type": "string"
+                },
+                "state": {
+                    "type": "string"
+                },
+                "zipcode": {
+                    "type": "string"
+                }
+            }
+        },
+        "bedrooms": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bathrooms": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "livingAreaSqFt": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "yearBuilt": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "propertyType": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "taxAssessment": {
+            "type": "object"
+        },
+        "walkScore": {
+            "type": [
+                "object",
+                "null"
+            ]
+        },
+        "schools": {
+            "type": "array"
+        },
+        "url": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}
