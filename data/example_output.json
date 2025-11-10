@@ -1,0 +1,68 @@
+[
+    {
+        "zpid": 84102313,
+        "price": {
+            "value": 249900
+        },
+        "address": {
+            "streetAddress": "1666 James St",
+            "city": "Syracuse",
+            "state": "NY",
+            "zipcode": "13203"
+        },
+        "bedrooms": 5,
+        "bathrooms": 4.0,
+        "livingAreaSqFt": 3292,
+        "yearBuilt": 1920,
+        "propertyType": "singleFamily",
+        "taxAssessment": {
+            "taxAssessedValue": 173826,
+            "taxAssessmentYear": "2021"
+        },
+        "walkScore": {
+            "walkscore": 54,
+            "description": "Somewhat Walkable"
+        },
+        "schools": [
+            {
+                "name": "Dr Weeks Elementary School",
+                "rating": 3,
+                "distance": 0.8
+            }
+        ],
+        "url": "https://www.zillow.com/homedetails/1666-James-St-Syracuse-NY-13203/84102313_zpid/"
+    },
+    {
+        "zpid": 12345678,
+        "price": {
+            "value": 525000
+        },
+        "address": {
+            "streetAddress": "10 Main St",
+            "city": "Albany",
+            "state": "NY",
+            "zipcode": "12207"
+        },
+        "bedrooms": 4,
+        "bathrooms": 3.0,
+        "livingAreaSqFt": 2800,
+        "yearBuilt": 2005,
+        "propertyType": "singleFamily",
+        "taxAssessment": {
+            "taxAssessedValue": 410000,
+            "taxAssessmentYear": "2022"
+        },
+        "walkScore": {
+            "walkscore": 72,
+            "description": "Very Walkable"
+        },
+        "schools": [
+            {
+                "name": "Albany High School",
+                "rating": 4,
+                "distance": 1.2
+            }
+        ],
+        "url": "https://www.zillow.com/homedetails/10-Main-St-Albany-NY-12207/12345678_zpid/"
+    }
+]
